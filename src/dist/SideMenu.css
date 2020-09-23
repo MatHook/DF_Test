@@ -1,1 +1,5 @@
-.SideMenu{width:100%;background:#2378fc}
+.SideMenu{width:100%;background:#2378fc;flex-wrap:wrap}.SideMenuBlock{display:flex;justify-content:center;flex:1 1 auto;margin:75px 403px}
+.SideMenuItem{display:flex;flex-direction:column;margin-right:119px}.SideMenuItem:last-of-type{margin-right:unset}
+.TitleText{font-family:Plumb;font-style:normal;font-weight:500;font-size:30px;line-height:130%;margin-bottom:30px;letter-spacing:-0.01em;color:#fff}
+.ItemText{font-family:Circe;font-style:normal;font-weight:normal;font-size:16px;line-height:135%;cursor:default;white-space:break-spaces;color:#fff;margin-bottom:15px}
+.ItemText:hover{text-decoration-line:underline;color:#ffc41e}
