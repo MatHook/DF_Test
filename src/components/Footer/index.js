@@ -18,7 +18,26 @@ const titles = [
   "Посетителям",
   "Прессе",
 ];
-const titleItems = ["First", "Second", "Third", "Fourth"];
+const titleItems1 = ["О нашей компании", "Вакансии", "Партнеры", "Контакты"];
+const titleItems2 = [
+  "Преимущества площадки",
+  "Структура комплекса",
+  "Онлайн-заявка на организацию",
+  "Документы организаторам",
+];
+const titleItems3 = [
+  "Забронировать гостиницу",
+  "Документы экспонентам",
+  "Услуги экспонентам",
+  "Общие условия участи",
+];
+const titleItems4 = [
+  "Сервисы",
+  "Онлайн-регистрация",
+  "Забронировать гостиницу",
+  "Центр деловых контрактов",
+];
+const titleItems5 = ["Аккредитация", "Пресс-служба", "Правила аккредитации"];
 
 const Footer = () => (
   <div className="Footer">
@@ -27,13 +46,13 @@ const Footer = () => (
         <FooterLink
           id={1}
           title={titles[0]}
-          items={titleItems}
+          items={titleItems1}
           className="FooterItem"
         />
         <FooterLink
           id={2}
           title={titles[1]}
-          items={titleItems}
+          items={titleItems2}
           className="FooterItem"
         />
       </Col>
@@ -41,13 +60,13 @@ const Footer = () => (
         <FooterLink
           id={3}
           title={titles[2]}
-          items={titleItems}
+          items={titleItems3}
           className="FooterItem"
         />
         <FooterLink
           id={4}
           title={titles[3]}
-          items={titleItems}
+          items={titleItems4}
           className="FooterItem"
         />
       </Col>
@@ -55,7 +74,7 @@ const Footer = () => (
         <FooterLink
           id={5}
           title={titles[4]}
-          items={titleItems.slice(0, 3)}
+          items={titleItems5}
           className="FooterItem"
         />
         <div className="FooterItem">
