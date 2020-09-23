@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Events from "./components/Events";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import News from "./components/News";
+import SideMenu from "./components/SideMenu";
+import "./sass/App.sass";
+import { Col } from "reactstrap";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Col className="App">
+        <Header className="Header"/>
+        <SideMenu />
+        <Events />
+        <News />
+        <Footer />
+      </Col>
     </div>
   );
-}
+};
 
 export default App;
