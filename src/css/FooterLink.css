@@ -1,0 +1,23 @@
+.Title {
+  font-family: Plumb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.625rem; }
+
+.Item {
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+  cursor: pointer;
+  white-space: nowrap;
+  /* identical to box height, or 19px */
+  color: #E0E0E0;
+  padding: 0.625rem 0; }
+  .Item:hover {
+    text-decoration-line: underline;
+    color: #FFC41E; }

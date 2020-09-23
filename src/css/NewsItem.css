@@ -1,0 +1,35 @@
+.NewsItem {
+  display: grid;
+  grid-template-rows: 120px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "i t";
+  align-items: center; }
+
+.Image {
+  width: 160px;
+  height: 120px;
+  grid-row: 1;
+  grid-area: i; }
+
+.TextBlock {
+  grid-row: 1;
+  grid-area: t;
+  width: 370px;
+  padding-left: 30px; }
+
+.Date {
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  color: #F6404F; }
+
+.Text {
+  font-family: Plumb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #2E373B; }
