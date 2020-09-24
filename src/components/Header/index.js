@@ -28,7 +28,7 @@ const Header = () => (
         </div>
         <div>
           <div className="BlockWrap">
-            <div>
+            <div className="BlockColumn">
               {items.slice(0, 2).map((block, i) => (
                 <BlockItem
                   color={colors[i]}
@@ -38,7 +38,7 @@ const Header = () => (
                 />
               ))}
             </div>
-            <div>
+            <div className="BlockColumn">
               {items.slice(2, 4).map((block, i) => (
                 <BlockItem
                   color={colors[i + 2]}

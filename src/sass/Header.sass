@@ -1,8 +1,7 @@
 .Header
   width: 100%
-  background-image: url('/hdrBg.jpeg')
-  background-repeat: no-repeat
-  background-position: center center
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/hdrBg.jpeg');
+  background-repeat: repeat
 
 .Content
   margin-top: 31.91px
@@ -21,7 +20,9 @@
 
 .HeaderTitleBlock
   display: flex
+  flex-basis: 300px
   flex-direction: column
+  margin-top: 274px
 
 .HeaderTitle
   font-family: Plumb
@@ -62,15 +63,18 @@
 .BlockWrap
   display: flex
   justify-content: space-between
-  flex-wrap: wrap
-  margin: 0
+  margin-top: 394px
   padding: 0
+  margin-bottom: 24px
+  flex-basis: 500px
+
+.BlockColumn
+  flex: 1 0 auto
 
 .Block
-  margin: 30px
   color: white
   font-weight: bold
   font-size: 1.5em
   text-align: center
-  flex: 1 0 auto
+  margin: 15px
   height: auto
