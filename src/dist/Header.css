@@ -1,1 +1,10 @@
-.Header{width:100%}
+.Header{width:100%;background:linear-gradient(0,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/hdrBg.jpeg");background-repeat:repeat}
+.Content{margin-top:31.91px}.TopLine{display:flex;flex-wrap:wrap;justify-content:space-evenly;border-bottom:1px solid #fff}
+.HeaderMain{display:flex;flex-wrap:wrap;justify-content:center}.HeaderTitleBlock{display:flex;flex-basis:300px;flex-direction:column;margin-top:274px}
+.HeaderTitle{font-family:Plumb;font-style:normal;font-weight:bold;font-size:64px;line-height:160%;text-transform:uppercase;color:#fff}
+.TitleText{font-family:Circe;font-style:normal;font-weight:normal;font-size:24px;line-height:140%;color:#fff}
+.MoreInformation{display:flex;align-items:baseline}.MoreInformationText{font-family:Circe;font-style:normal;font-weight:normal;font-size:16px;line-height:135%;color:#fff}
+.HeaderArrow{margin-left:10px}.BlockWrap{display:flex;justify-content:space-between;margin-top:394px;padding:0;margin-bottom:24px;flex-basis:500px}
+.BlockColumn{flex:1 0 auto}.Block{color:white;font-weight:bold;font-size:1.5em;text-align:center;height:auto}
+.Block:nth-child(1){margin-right:30px;margin-bottom:30px}.Block:nth-child(2){margin-right:30px;margin-top:15px}
+.Block:nth-child(3){margin-right:15px;margin-top:15px}

@@ -1,0 +1,27 @@
+.ContentText {
+  text-align: initial;
+  max-width: 175px;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  display: inline-flex;
+  color: #FFFFFF; }
+
+.BlockItemContent {
+  display: flex;
+  max-width: 255px;
+  flex-direction: column;
+  padding: 30px 0 30px 40px; }
+
+.MoreTextBlock {
+  display: flex;
+  align-items: baseline; }
+
+.MoreText {
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%; }

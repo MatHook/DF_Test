@@ -1,7 +1,6 @@
 .Footer {
   width: 100%;
-  background-color: #30BCC9;
-  flex-wrap: wrap; }
+  background-color: #30BCC9; }
 
 .FooterBlock {
   display: flex;

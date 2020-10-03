@@ -1,0 +1,33 @@
+.MainMenu {
+  display: flex;
+  flex-direction: row; }
+
+.MainMenu > .MainMenuItem {
+  flex: 1 1 auto;
+  margin-right: 47px;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  text-align: center;
+  color: #FFFFFF; }
+
+.RightBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+
+.SearchIcon {
+  margin-right: 70px; }
+
+.TextBar {
+  margin: unset;
+  font-family: Circe;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  margin-left: 11px;
+  text-align: right;
+  color: #FFFFFF; }
